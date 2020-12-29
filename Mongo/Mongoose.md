@@ -1,4 +1,5 @@
-###1. connect() vs createConnection()
+### 1. connect() vs createConnection()
+
 `connect()`는 `poolSize` 옵션에 설정되어 있는 값만큼 소켓/커넥션을 가지는 단일 풀을 생성한다. 그래서 여러 커넥션을 가지는건 가능하나 하나의 풀 안에 존재한다.
 그러나 `createConnection()`은 여러 커넥션풀을 생성한다. 그래서 여러 DB에 커넥션을 연결해야 할 때 쓰일 수 있다.
 
