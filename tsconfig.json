@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "experimentalDecorators": true
+    },
+    "files": [
+        "temp.ts"
+    ]
+}
