@@ -66,6 +66,8 @@ Car 클래스와 Bus 클래스가 Vehicle 인터페이스를 구현하고 있음
 
 우리는 직접 의존성의 인스턴스를 생성하지 않아도 됨. typedi 에게 의존성 정보를 알려주고(constructor에 선언) 필요할 때 요구(Container.get) 하면 됨.
 
+> @Service() 데코레이터를 붙인 클래스의 같은 인스턴스를 사용하기 위해서는 Container.get("클래스명") 으로 호출하면 된다.
+
 즉, 우리가 아니라 **typedi가 제어권을 갖는 주체**로 동작함. 이를 **제어권의 역전(Inversion of Control, IoC)**
 
 ![inversion-of-control-ioc-1.gif](../src/images/dependency_injection/inversion-of-control-ioc-1.gif)
