@@ -53,3 +53,15 @@
       Iterative version
 
       ![recursion9](../src/images/recursion/recursion9.png)
+
+# 재귀 알고리즘 응용
+
+### 조합의 수 계산
+
+- n개의 서로 다른 원소에서 m개를 택하는 경우의 수
+  ![recursion10](../src/images/recursion/recursion10.png)
+  ![recursion11](../src/images/recursion/recursion11.png)
+
+### 재귀적 이진 탐색 구현
+
+![recursion12](../src/images/recursion/recursion12.png)
